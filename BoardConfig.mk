@@ -27,10 +27,6 @@ BOARD_HARDWARE_CLASS += device/sony/z3c/cmhw
 
 # Kernel properties
 TARGET_KERNEL_CONFIG := cm_shinano_aries_defconfig
-
-# Kernel Toolchain
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9-sm/bin
-KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 GRAPHITE_OPTS := true
 
 # John opts
